@@ -1,0 +1,28 @@
+>>pageTitle=Businesses
+>>signUpBtnLabel=Sign Up
+>>loginBtnLabel=Login
+>>startBtnLabel=Get Started
+>>learnMoreLabel=Learn More
+>>menuContactLabel=Contact
+>>menuVideoLabel=Videos
+>>menuHeader=Welcome!
+>>menuHomeLabel=Home
+>>menuBusinessLabel=Business
+>>menuAffiliateLabel=Affiliates
+>>menuAgentLabel=Agents
+>>menuNewsLable=News
+>>menuBanksLabel=Banks
+>>menuInvestorLabel=Investor Relations
+>>menuSignUpLabel=Sign Up
+>>menuLoginLabel=Login
+>>menuUsingCloutLabel=Using Clout As:
+>>menuUserLabel=Public
+>>menuHelpLabel=Help
+>>menuReportProblemLabel=Report a Problem
+>>menuDeveloperLabel=Developers
+
+>>page1AboveTitle=transparent real-time spending data from 19,000 banks
+>>page1Title=Find and Win Customers from your Competition
+>>page1UnderTitle=Target who you want, when you want.
+Clout is simple and risk-free.
+>>page1Content=Claim your free account. Publish your campaign. Watch the customers roll in.

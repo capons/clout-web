@@ -1,0 +1,279 @@
+/* CSS Document */
+
+.accordion-options {
+	padding: 0px 0px 5px 0px;
+}
+
+.accordion-options .header {
+	height: 40px;
+	min-width: 150px;
+	width: 100%;
+	cursor: pointer;
+	padding-left: 50px;	
+	padding-top: 5px;
+	font-size:23px;
+	font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight:100;
+}
+
+
+.accordion-options .details {
+	width: 100%;
+	display: none;
+}
+
+
+.accordion-options .import-from-email {
+	background-image: url(../../assets/images/import_from_email_icon.png), url(../../assets/images/more_right_icon.png);
+	background-position: left center, right center;
+	background-size: 40px 40px, 40px 40px;
+	background-repeat: no-repeat, no-repeat;
+}
+.accordion-options .import-from-email.open {
+	background-image: url(../../assets/images/import_from_email_icon.png), url(../../assets/images/more_down_icon.png);
+}
+
+
+.accordion-options .import-from-file {
+	background-image: url(../../assets/images/import_from_file_icon.png), url(../../assets/images/more_right_icon.png);
+	background-position: left center, right center;
+	background-size: 40px 40px, 40px 40px;
+	background-repeat: no-repeat, no-repeat;
+}
+.accordion-options .import-from-file.open {
+	background-image: url(../../assets/images/import_from_file_icon.png), url(../../assets/images/more_down_icon.png);
+}
+
+
+.accordion-options .share-your-link {
+	background-image: url(../../assets/images/share_your_link_icon.png), url(../../assets/images/more_right_icon.png);
+	background-position: left center, right center;
+	background-size: 40px 40px, 40px 40px;
+	background-repeat: no-repeat, no-repeat;
+}
+.accordion-options .share-your-link.open {
+	background-image: url(../../assets/images/share_your_link_icon.png), url(../../assets/images/more_down_icon.png);
+}
+
+
+.accordion-options .paste-emails {
+	background-image: url(../../assets/images/paste_emails_icon.png), url(../../assets/images/more_right_icon.png);
+	background-position: left center, right center;
+	background-size: 40px 40px, 40px 40px;
+	background-repeat: no-repeat, no-repeat;
+}
+.accordion-options .paste-emails.open {
+	background-image: url(../../assets/images/paste_emails_icon.png), url(../../assets/images/more_down_icon.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tabdiv {
+	text-align: center;
+	width: 33%;
+	cursor: pointer;
+}
+
+
+.tabdiv span:last-child {
+	font-size:22px;
+	font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight:400;
+}
+
+
+
+
+
+.tabdiv.selected#my_network {
+	background-color: #8566AB;
+}
+.tabdiv.selected#my_network span {
+	color: #FFF;
+}
+
+
+.tabdiv.selected#my_invites {
+	background-color: #2DA0D1;
+}
+.tabdiv.selected#my_invites span {
+	color: #FFF;
+}
+
+
+.tabdiv.selected#my_earnings {
+	background-color: #18C93E;
+}
+.tabdiv.selected#my_earnings span {
+	color: #FFF;
+}
+
+
+
+
+
+
+
+.whiteheadertitle {
+	font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+	color: #888;
+	font-size:20px;
+	font-weight: 400;
+	line-height: 150%;
+}
+
+
+
+a.whiteheadertitle {
+	font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+	color: #888;
+	font-size:20px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+
+.whiteheadertitle.blue {
+	color: #2C9FD1;
+}
+
+.whiteheadertitle.green {
+	color: #18C93E;
+}
+
+.whiteheadertitle.purple {
+	color: #8566AB;
+}
+
+
+.networkbar {
+	width:23px;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+/*Background system colors*/
+.blackbg {
+	background-color:#333333;
+}
+
+.darkgreybg {
+	background-color:#666666; 
+}
+
+.mediumgreybg {
+	background-color:#999999;
+}
+
+.lightgreybg {
+	background-color:#CCCCCC;
+}
+
+.lightergreybg {
+	background-color:#F1F1F1;
+}
+
+.deeppurplebg {
+	background-color:#6D76B5; 
+}
+
+.lightpurplebg, .purplebg {
+	background-color:#8566AB; 
+}
+
+.lightbluebg {
+	background-color:#03BFCD;
+}
+
+.bluebg {
+	background-color:#2DA0D1; 
+}
+
+
+.deepgreenbg {
+	background-color:#0AC298;
+}
+
+.greenbg {
+	background-color:#18C93E; 
+}
+
+.lightgreenbg {
+	background-color:#56D42B;
+}
+/*Background colors - END*/
+
+
+
+.first {
+	height:39px; 
+}
+
+.second {
+	height:59px; 
+}
+
+.third {
+	height:82px; 
+}
+
+.fourth {
+	height:121px; 
+}
+
+
+
+.center-all td, .center-all table {
+	text-align: center;
+}
+
+
+.circular {
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	background-size:54px 54px;
+	border: 2px solid #CCC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS for small screens */
+@media only screen and (max-width:700px){
+
+.accordion-options .header {
+	font-size:15px;
+}
+
+
+}

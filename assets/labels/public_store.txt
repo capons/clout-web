@@ -1,0 +1,5 @@
+>>signUpBtnLabel=Signup
+>>loginBtnLabel=Login
+>>cloutMsg1=See millions of stores' scores
+>>cloutMsg2=Visible to Members Only.  Login or signup for Clout access today.
+>>membersOnlyMsg=Visible to Members Only

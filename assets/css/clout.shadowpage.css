@@ -1,0 +1,209 @@
+/* CSS Document */
+
+body { 
+	margin:0; 
+	padding:0; 
+}
+
+#__shadowpage, #__waitbox {
+	background: rgb(0, 0, 0); /* Fallback */
+	background: rgba(0, 0, 0, 0.6); 
+	position:fixed;
+	z-index: 10000;
+}
+
+#__shadowpage iframe {
+	overflow:hidden;
+	position:absolute;
+	background-color: #FFF;
+	padding: 0px;
+	z-index: 1000;
+}
+
+
+#__waitbox div {
+	overflow:hidden;
+	position:absolute;
+	padding: 25px;
+	width: 60px;
+	height: 60px;
+	background: url(../../assets/images/loading.gif) no-repeat center center #FFF;
+	z-index: 1000;
+}
+
+
+#__shadowpage_closer {
+	background: url(../../assets/images/large_closer.png) no-repeat center center;
+	width: 45px;
+	height: 45px;
+	padding: 3px;
+	cursor:pointer;
+}
+
+
+
+
+
+.shadowpage-header {
+	min-width: 0;
+    display: table;
+	width: 100% !important;
+	background: rgba(0, 0, 0, .6);
+}
+
+.shadowpage-header td {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+.shadowpage-header .user-icon {
+	width: 45px;
+	height: 45px;
+}
+
+.shadowpage-header .title {
+	height: 45px;
+	padding-left:5px;
+	padding-right:5px;
+	width: 1%;
+	white-space: nowrap;
+	color: #FFF;
+	font-size:30px;
+	font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight:100;
+}
+
+.shadowpage-container {
+	width:100%;
+	overflow-x:auto;
+	overflow-y:auto;
+	height:calc(100vh - 60px) !important;
+}
+
+
+
+/* scrollable class are for viewing images on a shadowbox popup */
+@media only screen and (min-width:700px){
+	.view-scrollable-image-container {
+		width: 1200px;
+		height: 800px;
+	}
+}
+
+@media only screen and (max-width:400px){
+	.view-scrollable-image-container {
+		width: 500px;
+		height: 300px;
+	}
+}
+
+
+/* CSS for small screens */
+@media only screen and (max-width:700px){
+	.view-scrollable-image-container {
+		width: 800px;
+		height: 600px;
+	}
+	
+}
+
+/* The close button */
+.expandable_closer {
+	/* TODO: modify to "#__shadowbox_closer, .expandable_closer {" */
+	background: url(../../assets/images/grey_closer.png) no-repeat center center;
+	width: 20px;
+	height: 20px;
+	position:absolute;
+	z-index: 9999;
+	cursor:pointer;
+}
+
+
+/* The clickable div */
+.expandable_image {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #FFFFFF;
+	cursor:pointer;
+}
+
+
+.scrollable-image {
+	position: absolute;
+	top: 0px; 
+	left: 50px;
+	width: 400px;
+	height: 500px;
+	border: 1px solid black;
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.view-scrollable-images {
+	position: absolute;
+	/* border: 1px solid black; */
+	top: 20px; 
+	left: 20px;
+	width: 500px;
+	height: 500px;
+	z-index: 9998;
+}
+
+
+.view-btn-left, .view-btn-right {
+	position: absolute;
+	top: 0px; 
+	width: 50px;
+	height: 500px;
+	cursor:pointer;
+	border: 1px solid black;
+}
+
+
+.view-btn-left {
+	background: url(../../assets/images/backward_arrow.png) no-repeat center center;
+	left: 0px;
+}
+
+.view-btn-right {
+	background: url(../../assets/images/forward_arrow.png) no-repeat center center;
+	left: 450px;
+}
+
+
+
+.active {
+	display: block;
+}
+
+.inactive {
+	display: none;
+}
+
+.disable_click {
+	pointer-events: none;
+	background-color: #C6C5C5;
+	opacity: 0.3;
+}
+
+/* End of scrollable image popup classes */
+
+
+
+
+/* CSS for mobile */
+@media only screen and (max-width:700px){
+
+#__shadowpage, #__waitbox {
+	background: rgb(255, 255, 255); /* Fallback */
+	background: rgba(255, 255, 255, 1); 
+	position:fixed;
+	top: 0px;
+	z-index: 10000;
+}
+	
+}

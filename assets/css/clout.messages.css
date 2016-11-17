@@ -1,0 +1,153 @@
+/* CSS Document */
+
+.tab-table {
+	width: calc(100% - 20px);
+	border: 1px solid #CCC;
+}
+
+.tab-table > tbody > tr > td {
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+}
+
+
+
+.tab-table > tbody > tr:last-child > td {
+	background-color: #FFFFFF;
+}
+
+.tab-div {
+	text-align: center;
+	width: 33%;
+	cursor: pointer;
+	background-color: #F2F2F2;
+	padding: 10px;
+}
+
+
+.tab-div div:first-child {
+	height: 35px;
+	margin-bottom: 5px;
+	margin:auto 0px;
+}
+
+
+.tab-div div:last-child {
+	font-size:15px;
+	font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight:400;
+}
+
+
+.tab-div.selected {
+	background-color: #FFF;
+	border-bottom: 0px;
+}
+
+.tab-div .mail-icon {
+	background: url(../../assets/images/inbox_mail_icon.png) no-repeat center center;
+}
+
+.tab-div .events-icon {
+	background: url(../../assets/images/inbox_calendar_icon.png) no-repeat center center;
+}
+
+.tab-div .reservations-icon {
+	background: url(../../assets/images/inbox_event_icon.png) no-repeat center center;
+}
+
+#filterbtn {
+	min-width:150px;
+	margin-left: 20px;
+}
+
+
+
+
+
+
+.normal-list-table-row > tbody > tr:first-child > td {
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+}
+
+.normal-list-table-row > tbody > tr > td {
+	border-bottom: 1px solid #CCC;
+}
+
+.normal-list-table-row > tbody > tr.header > td {
+	padding: 10px;
+	vertical-align: middle;
+}
+
+.normal-list-table-row > tbody > tr > td {
+	padding: 10px;
+	vertical-align: top;
+}
+
+.normal-list-table-row .header {
+	background-color: #F2F2F2;
+}
+
+.normal-list-table-row .header .down {
+	background: url(../../assets/images/down_arrow_grey.png) no-repeat center right;
+	padding-right: 25px;
+}
+
+.normal-list-table-row .alert {
+	background-color: #FFE79B;
+}
+.normal-list-table-row:not(.with-checks) .alert > td:first-child {
+	background: url(../../assets/images/warning.png) no-repeat center right;
+	padding-right: 80px;
+}
+.normal-list-table-row.with-checks .alert > td:nth-child(2) {
+	background: url(../../assets/images/warning.png) no-repeat center right;
+	padding-right: 80px;
+}
+.normal-list-table-row.with-checks .alert > td:nth-child(1) {
+	background: #FFE79B;
+}
+
+.normal-list-table-row.with-checks > tbody > tr > td:first-child {
+	width: 1%;
+}
+
+
+
+
+
+
+
+/* CSS for small screens */
+@media only screen and (max-width:700px){
+
+.tab-div div:last-child {
+	font-size:10px;
+}
+
+#filterbtn {
+	min-width:50px;
+	margin-left: 5px;
+}
+
+#searchbtn {
+	display: none;
+}
+
+
+.tab-table .normal-list-table-row {
+	font-size:14px;
+}
+
+.normal-list-table-row .alert > td:first-child {
+	background: #FFE79B;
+	padding-right: 5px;
+}
+.normal-list-table-row.with-checks .alert > td:nth-child(2) {
+	background: #FFE79B;
+	padding-right: 5px;
+}
+
+}

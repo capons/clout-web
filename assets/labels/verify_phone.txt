@@ -1,0 +1,9 @@
+>>boxTitle=Verify Mobile Number
+>>updateBoxTitle=Update Mobile Number
+>>codeInstruction=Verification Code sent to 
+>>codeFieldLabel=Enter Verification Code
+>>verifyBtnLabel=Verify
+>>skipBtnLabel=Skip
+>>mobilePhoneFieldLabel=Enter Your Telephone
+>>updateBtnLabel=Update
+>>cancelBtnLabel=Cancel

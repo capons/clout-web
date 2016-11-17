@@ -1,0 +1,107 @@
+/* CSS Document */
+
+
+.scroller-outer {
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.scroller-inner {
+	width: 100%;
+	white-space: nowrap;
+}
+
+.scroller-inner > div {
+	display: inline-block;
+	position: relative;
+	border: 1px solid #DDD;
+	background-color: #FFF;
+	width: 110px;
+	height: 95px;
+	padding: 5px; 
+	margin: 3px;
+	cursor: pointer;
+	border-radius: 10px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+}
+
+
+
+.scroller-inner .textlabel {
+	width:100%;
+	position: absolute;
+	display:inline-block;
+    bottom: 0;
+	left: 0px;
+	font-size: 11px;
+	text-align:center;
+	color:#666666;
+	font-weight:400;
+	margin-bottom: 5px;
+	line-height: 85%;
+}
+
+.back-btn {
+	height: 110px;
+	width: 30px;
+}
+
+.back-btn.active {
+	background: url(../../assets/images/backward_arrow.png) no-repeat center center;
+	cursor: pointer;
+	height: 110px;
+	width: 30px;
+}
+
+.next-btn {
+	height: 110px;
+	width: 30px;
+}
+
+.next-btn.active {
+	background: url(../../assets/images/forward_arrow.png) no-repeat center center;
+	cursor: pointer;
+	height: 110px;
+	width: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS for very small (mobile) screens */
+@media only screen and (max-width:700px){
+
+.scroller-inner > div {
+	width: calc(110px * 0.7);
+	height: calc(95px * 0.7);
+}
+
+.scroller-inner .textlabel {
+	font-size: 11px;
+}
+
+.back-btn, .back-btn.active, .next-btn, .next-btn.active {
+	width: calc(110px * 0.7);
+	width: 30px;
+}
+
+.scroller-inner .textlabel {
+	background: rgba(255, 255, 255, .7);
+}
+
+}
+
+
+

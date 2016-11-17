@@ -1,0 +1,5 @@
+>>boxTitle=Verify Email Address
+>>codeInstructionPart1=Verification Link sent to 
+>>codeInstructionPart2=Please check your email to complete sign up.
+>>codeFieldLabel=Enter Verification Code
+>>resendLinkBtnLabel=Resend

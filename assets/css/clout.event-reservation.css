@@ -1,0 +1,260 @@
+#page1 {
+   position: relative;
+}
+
+a {
+   cursor: pointer;
+}
+.date {
+   font-size: 12px;
+}
+
+.day,
+.title,
+.time {
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.detail,
+.friends,
+.rules,
+.timerange {
+   font-size: 15px;
+}
+
+.detail,
+.rules,
+.timerange {
+   margin: 0;
+}
+
+.response {
+   font-size: 15px;
+   margin-top: 9px;
+   display: flex;
+   justify-content: space-between;
+   max-width: 120px;
+}
+
+.blacksmallbtn {
+   color: #FFF;
+   font-size: 12px;
+   font-weight: normal;
+   background: #000;
+   border-radius: 5px 5px 5px 5px;
+   border: 0px;
+   max-width: 120px;
+   cursor: pointer;
+}
+
+#search-div {
+   float: left;
+}
+
+#switch-div {
+   float: right;
+   display: flex;
+   align-items: center;
+   height: 65px;
+}
+
+#events-search-btn {
+   min-width: 50px;
+}
+
+#events-filter-btn {
+   min-width: 80px;
+}
+
+#search-bar tr{
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   height: 65px;
+}
+
+#events-container,
+.events-table {
+   width: 100%;
+   color: DimGray;
+}
+
+.events-table thead th{
+   background-color: grey;
+   color: white;
+   text-align:center;
+}
+
+.events-table tbody tr {
+   border-bottom: 1px solid Gainsboro;
+   display: flex;
+   justify-content: flex-start;
+   height: auto;
+}
+
+.events-table tbody tr td {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+}
+
+.events-table tbody tr:nth-child(6n) td:first-child,
+.events-table tbody tr:nth-child(6n-1) td:first-child,
+.events-table tbody tr:nth-child(6n-2) td:first-child{
+   background-color: grey;
+   color: white;
+   text-align:center;
+}
+
+.events-table tbody tr td:first-child{
+   background-color: Gainsboro;
+   color: DimGray;
+   text-align:center;
+}
+
+.events-table tbody tr td:nth-child(2){
+   width:100%;
+}
+
+.events-table tbody tr td:nth-child(3){
+   width: 20%;
+}
+
+#filter {
+   display: none;
+}
+
+#photo {
+   width: 100px;
+   height: 100px;
+   border: 1px solid black;
+   margin: 5px 10px 5px 10px;
+   background-position: top center;
+   background-repeat: no-repeat;
+   overflow: hidden;
+}
+
+#storedetail {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+}
+
+#confirmationdetail {
+   width: 20%;
+}
+
+#storeinfo {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   width: 70%;
+}
+
+#storeinfo div:last-child{
+   width: 80%;
+}
+
+.events-table tbody .modify-form-row,
+.events-table tbody .make-reservation {
+   display: none;
+}
+
+#reservation-details {
+   margin-left: 10px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: flex-start;
+   justify-content: flex-start;
+   text-align: left;
+   height:auto;
+   width:100%;
+}
+
+#reservation-details div {
+   width: auto;
+   margin-right: 3%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   text-align: left;
+}
+
+#reservation-details div div{
+   margin-bottom: 10px;
+}
+
+#reservation-details div span{
+   width: 100%;
+}
+
+#reservation-details #numberinparty,
+#numberofpeopleform #numberinparty  {
+   width: 50px;
+}
+
+#reservation-details #buttons {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   text-align: center;
+}
+
+#updatereservation {
+   width: 50%;
+}
+
+#numberofpeopleform {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   margin-left: 10px;
+   justify-content: space-between;
+   width: 30%;
+}
+
+#numberofpeopleform div{
+   width: auto;
+}
+
+.closerow,
+.redirect {
+   width: 50%;
+}
+
+textarea {
+   resize: none;
+}
+
+.boldtext {
+   font-weight: 500;
+   color: DimGray;
+   pointer-events: none;
+}
+.greenbar {
+   border-bottom: 5px solid #18C93E;
+}
+
+.bluebar {
+   border-bottom: 5px solid #2DA0D1;
+}
+
+.redbar {
+   border-bottom: 5px solid red;
+}
+
+#seemoreevents,
+#seemorereservations {
+   display: flex;
+   justify-content: center;
+   border: none;
+}

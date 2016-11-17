@@ -1,0 +1,163 @@
+/* CSS Document */
+
+
+.score-header-ribbon {
+	width: 100%;
+	border: 1px solid #DDD;
+	background-color: #FFF;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+.score-header-ribbon td:not(.score-cell) {
+	vertical-align: central;
+	padding: 5px;
+	text-align:center;
+	width: calc(50% - 45px);
+	font-size:18px;
+}
+
+.score-header-ribbon > tbody > tr > td:first-child {
+	padding-right: 45px;
+	border-right: 1px solid #DDD;
+}
+
+.score-header-ribbon > tbody > tr > td:last-child {
+	padding-left: 45px;
+	border-left: 1px solid #DDD;
+}
+
+
+.score-header-ribbon .score-cell {
+	width: 90px;
+	height: 130px;
+}
+
+.score-header-ribbon .cell-body {
+	color: #FFF;
+	background-color: #03BFCD;
+}
+
+
+
+
+/* --------------- START ------------------ */
+/* Donut chart stylesheets */
+
+#donutchart, #donutchartskeleton, #donutcharttext {
+	position: absolute;
+	width: 160px;
+	height: 160px;
+	margin-top: -90px;
+	vertical-align:middle;
+}
+
+
+#donutchart:not(.in-cell), #donutchartskeleton:not(.in-cell), #donutcharttext:not(.in-cell) {
+	margin-top: -80px;
+	margin-left: -30px;
+}
+
+
+
+#donutchartsmall {
+	width: 100%;
+	height: 100%;
+	display: none;
+	position:relative;
+}
+
+
+#donutchart:not(.in-cell) {
+	border: 1px solid #CCCCCC;
+	-webkit-box-shadow: 1px 1px 1px 1px #F1F1F1;
+	box-shadow: 1px 1px 1px 1px #F1F1F1;
+	background-color: #FFF;
+	z-index:0;
+}
+
+#donutchartskeleton {
+	z-index:5;
+}
+
+#donutcharttext {
+	z-index:10;
+	display:table;
+}
+
+#donutcharttext > div {
+	display:table-cell;
+	vertical-align:middle;
+}
+
+#donutcharttext span, #donutchartsmall span {
+	width: 100%;
+	text-align:center;
+	display:block;
+}
+
+#donutcharttext .score, #donutchartsmall .score {
+	font-family: 'Open Sans', arial;
+    -webkit-font-smoothing: antialiased;
+	color: #646464;
+	font-size:38px;
+	font-weight: 700; 
+}
+
+#donutcharttext .score-label, #donutchartsmall .score-label {
+	font-family: 'Open Sans', arial;
+    -webkit-font-smoothing: antialiased;
+	color: #999;
+	font-size:15px;
+	font-weight: 400;
+}
+
+/* --------------- END ------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS for small screens */
+@media only screen and (max-width:700px){
+
+.score-cell {
+	top: 0px;
+	bottom: 0px;
+}
+
+.score-header-ribbon > tbody > tr > td:first-child {
+	padding-right: 10px;
+}
+
+.score-header-ribbon > tbody > tr > td:last-child {
+	padding-left: 10px;
+}
+
+#donutchart, #donutchartskeleton, #donutcharttext {
+	display: none;
+}
+
+.score-header-ribbon td:not(.score-cell) {
+	font-size:13px;
+}
+
+#donutchartsmall {
+	display: block;
+}
+
+.score-header-ribbon {
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+}

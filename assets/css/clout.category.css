@@ -1,0 +1,8 @@
+/* CSS Document */
+
+.back-btn {
+	background: url(../../assets/images/risk_free_icon.png) no-repeat center center;
+	background-size: cover;
+	width: 76px;
+	height: 63px;
+}

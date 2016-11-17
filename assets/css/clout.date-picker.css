@@ -1,0 +1,57 @@
+/* CSS Document */
+
+/* ----------------------------------------------------------------------------------------------- */
+/* START: Date picker syling */
+/* ----------------------------------------------------------------------------------------------- */
+.ui-datepicker-prev, .ui-datepicker-prev:hover, .ui-datepicker-next, .ui-datepicker-next:hover {  
+    display: inline-block;  
+	white-space: nowrap;
+    width: 30px;  
+    height: 30px;  
+    text-align: center;  
+    cursor: pointer;  
+    background-image: url(../../assets/images/calendar_arrows.png);  
+    background-repeat: no-repeat;  
+    /*line-height: 600%; */ 
+    overflow: hidden;  
+}  
+
+.ui-datepicker-prev, .ui-datepicker-prev:hover {  
+    float: left;  
+    background-position: center -30px;  
+}  
+
+.ui-datepicker-next, .ui-datepicker-next:hover {  
+    float: right;  
+    background-position: center 0px;  
+}  
+
+.ui-datepicker td {
+    border: 1px solid #CCC;
+    padding: 0;
+	font-size:12px;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    border: solid #FFF;
+    border-width: 1px 0 0 1px;
+}
+
+.ui-datepicker-year,.ui-datepicker-month {
+	border: 1px solid #DDDDDD;
+	padding:2px;
+	font-size: 11px;
+    color:#333333;
+	background-color:white; 
+}
+
+.ui-datepicker {
+	border-radius: 0px;
+	border: solid 1px #DDD;
+	padding: 10px;
+	background-color: #F9F9F9;
+	font-size: 13px;
+	min-width: 230px;
+}
